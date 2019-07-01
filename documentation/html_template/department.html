@@ -37,7 +37,9 @@
         <ul class="navbar-nav">
             <li class="nav-item"><a href="departments.html"
                                     class="btn btn-light"
-                                    title="Save department">
+                                    title="Save department"
+                                    data-toggle="tooltip"
+                                    data-placement="bottom">
                 <i class="fa fa-save"></i> <span class="d-none d-sm-inline">Save</span></a></li>
         </ul>
     </nav>
@@ -75,5 +77,10 @@
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
 </body>
 </html>
