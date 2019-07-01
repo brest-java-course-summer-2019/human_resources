@@ -11,14 +11,18 @@
 </head>
 <body>
 
-<a href="index.html"><img src="img/logo.svg" height="32" width="32" alt="HR"></a>
-
 <header>
-    <nav>
-        <ul>
-            <li><a href="departments.html">Departments</a></li>
-            <li><a href="employees.html">Employees</a></li>
-        </ul>
+    <nav class="pl-2 navbar navbar-expand-sm navbar-dark bg-dark text-light  p-0">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="index.html" class="navbar-brand"><img src="img/logo.svg" height="32" width="32" alt="HR"></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <a class="nav-item nav-link" href="departments.html">Departments</a>
+                <a class="nav-item nav-link active" href="employees.html">Employees</a>
+            </ul>
+        </div>
     </nav>
     <h1>Edit Employee</h1>
 </header>
